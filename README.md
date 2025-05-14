@@ -6,7 +6,7 @@
 - Using CSS Flexbox
 - Used accessibility tools to ensure contrast is up to WCAG. 
 - Set Alt Text for my images.
-- Obtained images from (WEBSITE) and credited them correctly.  
+- Obtained images from Unsplash and credited them correctly.  
 - Used Semantic HTML for accessibility.
 <!-- - Made it responsive. TBD  -->
 
