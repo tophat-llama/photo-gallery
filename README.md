@@ -12,7 +12,7 @@
 
 ## Updates
 - Fixed image sizing issue in the imageBox containers
-- [] Make it responsive with Media Queries
-- [] Make the textBox containers adjust to match the size of the imageBox containers
+- [ ] Make it responsive with Media Queries
+- [ ] Make the textBox containers adjust to match the size of the imageBox containers
 
 
