@@ -1,0 +1,106 @@
+* {
+    background-color: rgb(85, 8, 116);
+    background-color: chocolate;
+
+    max-width: 1280px;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #FF9D52;
+
+    /* padding-left: 2vw; */
+
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.topFlexContainer {
+    /* background-color: lightblue; */
+
+    /* display: grid;
+    grid-template-columns: repeat(12,1fr); */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    row-gap: 2vh;
+}
+
+.ImageBox {
+    /* background-color: rgb(231, 6, 85); */
+    /* background-color: #FF9D52; */
+
+    /* grid-column: 1 / span 8; */
+
+    /* max-width: 400px; */
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    /* padding: 1rem; */
+
+    /* size: ; */
+
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.ImageBox > Img {
+    display: block;
+
+    /* background-color: rgb(231, 6, 85); */
+    /* background-color: #FF9D52; */
+
+    overflow: hidden;
+    justify-content: center;
+
+    max-width: auto;
+	height: auto;
+    object-fit: cover;
+
+    /* object-fit: cover; */
+}
+
+.TextBox {
+    display: block;
+
+    /* background-color: rgb(157, 39, 57); */
+    background-color: #FF9D52;
+
+    /* grid-column: 9 / span 4; */
+    padding: 2rem;
+
+    font-size: 1.35rem;
+
+    overflow: hidden;
+    justify-content: center;
+
+    max-width: auto;
+	height: auto;
+
+    /* width: fit-content; */
+    /* margin-top: 2vh;
+    margin-bottom: 2vh; */
+
+    align-content: center;
+
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+/* ======TESTING COLOURS====== */
+/* .TextBox > h2 {
+    background-color: azure;
+} */
+
+/* .TextBox > p {
+    background-color: rgb(61, 187, 187);
+} */
